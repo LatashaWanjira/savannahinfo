@@ -27,7 +27,6 @@ const UsersTable: FunctionComponent = () => {
             <div className="col-md-6">
               <EditUser/>
             </div>
-
           </div>)}
         </div>
 

@@ -5,7 +5,6 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import UsersTable from "./components/UsersTable";
 import EditUser from "./components/EditUser";
 import UserPosts from "./components/UserPosts";
-import User from "./components/User";
 import Header from  "./components/Header"
 
 
@@ -17,7 +16,6 @@ function App() {
         <Route path="/" exact component={UserPosts}/>
         <Route path="/users" component={UsersTable}/>
         <User/>
-
       </div>
     </Router>
   );
