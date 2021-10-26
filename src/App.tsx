@@ -15,7 +15,6 @@ function App() {
       <div className="container">
         <Route path="/" exact component={UserPosts}/>
         <Route path="/users" component={UsersTable}/>
-        <User/>
       </div>
     </Router>
   );
